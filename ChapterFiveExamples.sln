@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompactOS_CompressFile", "CompactOS_CompressFile\CompactOS_CompressFile.vcxproj", "{76827E13-60D7-4343-8683-4F2DE7876029}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{3441D33C-17F3-418F-846A-0A79943728E6}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
@@ -13,9 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{3441D3
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompactOS_GetStatus", "CompactOS_GetStatus\CompactOS_GetStatus.vcxproj", "{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompactOS_UncompressFile", "CompactOS_UncompressFile\CompactOS_UncompressFile.vcxproj", "{E4F60657-BDF9-49C3-8353-3E75E826939F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompactOSDemo", "CompactOSDemo\CompactOSDemo.vcxproj", "{CDBDEF69-7F96-4565-9222-079C554EC653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,32 +21,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Debug|x64.ActiveCfg = Debug|x64
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Debug|x64.Build.0 = Debug|x64
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Debug|x86.ActiveCfg = Debug|Win32
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Debug|x86.Build.0 = Debug|Win32
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Release|x64.ActiveCfg = Release|x64
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Release|x64.Build.0 = Release|x64
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Release|x86.ActiveCfg = Release|Win32
-		{76827E13-60D7-4343-8683-4F2DE7876029}.Release|x86.Build.0 = Release|Win32
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Debug|x64.ActiveCfg = Debug|x64
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Debug|x64.Build.0 = Debug|x64
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Debug|x86.ActiveCfg = Debug|Win32
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Debug|x86.Build.0 = Debug|Win32
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Release|x64.ActiveCfg = Release|x64
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Release|x64.Build.0 = Release|x64
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Release|x86.ActiveCfg = Release|Win32
-		{3D109FE9-92D9-4B24-B491-DCFE71A3B3FB}.Release|x86.Build.0 = Release|Win32
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Debug|x64.ActiveCfg = Debug|x64
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Debug|x64.Build.0 = Debug|x64
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Debug|x86.ActiveCfg = Debug|Win32
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Debug|x86.Build.0 = Debug|Win32
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Release|x64.ActiveCfg = Release|x64
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Release|x64.Build.0 = Release|x64
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Release|x86.ActiveCfg = Release|Win32
-		{E4F60657-BDF9-49C3-8353-3E75E826939F}.Release|x86.Build.0 = Release|Win32
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Debug|x64.ActiveCfg = Debug|x64
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Debug|x64.Build.0 = Debug|x64
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Debug|x86.Build.0 = Debug|Win32
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Release|x64.ActiveCfg = Release|x64
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Release|x64.Build.0 = Release|x64
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Release|x86.ActiveCfg = Release|Win32
+		{CDBDEF69-7F96-4565-9222-079C554EC653}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46025D42-EABF-439C-9174-6B9A03224302}
 	EndGlobalSection
 EndGlobal
